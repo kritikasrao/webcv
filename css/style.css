@@ -1,0 +1,123 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+nav {
+    background-color:lavender;
+    padding: 10x;
+    border-bottom: 5px solid grey;
+    display: flex;
+    justify-content: right;
+}
+nav a {
+    text-decoration: none;
+    color: black; 
+}
+nav a:hover {
+    color: white;
+}
+footer {
+    background-color: aquamarine;
+    border-top: 5px solid grey;
+    display: flex;
+    justify-content: center ;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}
+footer a:hover {
+    color: white;
+}
+img {
+    padding-top: 30px;
+    border-radius: 50%;
+}
+.splash{
+    background-color: lightblue;
+    padding: 100px;
+}
+.splash img {
+    width: 100px;
+    position: absolute;
+    top: 50px; 
+    left: 0; 
+    
+}
+.splash .content img {
+    width: 100px;
+    position: absolute;
+    top: 50px; 
+    left: 1418px
+}
+
+.splish a {
+    color: mediumpurple;
+    text-decoration: none;
+}
+.splish a:hover {
+    color: blue;
+}
+hr {
+    border: 1px dotted grey;
+}
+
+.cards {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 30px;
+    background-color: mistyrose;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.cards h3 {
+    color: teal;
+}
+.card-container {
+    display: grid;
+    justify-content:center;
+
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.form-container {
+    display: grid;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    background-color: mistyrose;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+ul {
+    display: grid;
+    justify-content:center;
+    list-style-type: none;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+dd {
+    display: flex;
+    justify-content: left;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+dt {
+    display: flex;
+    font-family: 'Bricolage Grotesque', sans-serif;
+
+}
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color:cornflowerblue;
+}
+h2 {
+    font-family: 'Praise', cursive;
+    color: darkseagreen;
+}
+p {
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+h3 {
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+
